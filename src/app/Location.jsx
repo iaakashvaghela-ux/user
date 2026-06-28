@@ -90,17 +90,46 @@ export default function LocationPermission() {
 
                     {/* Instruction Card */}
                     <div className="w-full text-left space-y-4 bg-zinc-950/60 border border-zinc-800/80 rounded-2xl p-5 mb-6 text-sm">
-                        <div>
-                            <div className="font-semibold text-zinc-200 flex items-center gap-2 mb-1.5">
-                                <span className="flex items-center justify-center w-5 h-5 rounded-full bg-zinc-800 text-xs text-zinc-300 font-bold">A</span>
-                                Android (Chrome) के लिए:
-                            </div>
-                            <ol className="list-decimal list-inside text-zinc-400 pl-7 space-y-1.5 text-xs">
-                                <li>ऊपर URL बार में बाईं तरफ बने <strong className="text-zinc-200">Lock (🔒)</strong> या सेटिंग्स आइकॉन पर क्लिक करें।</li>
-                                <li>वहां <strong className="text-zinc-200">Permissions (अनुमतियाँ)</strong> पर जाएं।</li>
-                                <li><strong className="text-zinc-200">Location</strong> को चालू (<strong className="text-green-500">Allow</strong>) करें और पेज रीलोड करें।</li>
-                            </ol>
-                        </div>
+                       <div>
+  <div className="font-semibold text-zinc-200 flex items-center gap-2 mb-1.5">
+    <span className="flex items-center justify-center w-5 h-5 rounded-full bg-zinc-800 text-xs text-zinc-300 font-bold">
+      A
+    </span>
+    Android (Chrome) के लिए:
+  </div>
+
+  <ol className="list-decimal list-inside text-zinc-400 pl-7 space-y-1.5 text-xs">
+    <li>
+      यदि वेबसाइट किसी अन्य ऐप (जैसे WhatsApp, Facebook आदि) में खुली है,
+      तो ऊपर दाईं ओर बने <strong className="text-zinc-200">⋮ (3 Dots)</strong> पर टैप करें।
+    </li>
+
+    <li>
+      <strong className="text-zinc-200">Open in Chrome</strong> चुनें ताकि वेबसाइट Google Chrome में खुल जाए।
+    </li>
+
+    <li>
+      Chrome में वेबसाइट खुलने के बाद फिर से ऊपर दाईं ओर
+      <strong className="text-zinc-200"> ⋮ (3 Dots)</strong> पर टैप करें।
+    </li>
+
+    <li>
+      <strong className="text-zinc-200">Settings</strong> →
+      <strong className="text-zinc-200"> Site Settings</strong> →
+      <strong className="text-zinc-200"> Location</strong> पर जाएँ।
+    </li>
+
+    <li>
+      वेबसाइट <strong className="text-zinc-200">user-b2b7.vercel.app</strong> को
+      <strong className="text-green-500"> Allow</strong> करें।
+    </li>
+
+    <li>
+      अब वेबसाइट पर वापस आएँ और पेज को
+      <strong className="text-zinc-200"> Refresh</strong> करें।
+    </li>
+  </ol>
+</div>
 
                         <div className="h-px bg-zinc-800/60"></div>
 
